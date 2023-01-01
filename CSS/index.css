@@ -1,0 +1,10 @@
+.Top-Header{
+    font-size: 2em;
+    display: flex;
+}
+
+.Navigation{
+    font-size: 1.2rem;
+    margin-left: auto;
+    text-align: right;
+}
