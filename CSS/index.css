@@ -1,7 +1,6 @@
 .Top-Header{
     font-size: 2em;
     display: flex;
-    color: black;
 }
 
 .Name{
@@ -21,7 +20,6 @@
 
 .Contact{
     background-color: gray;
-    color: black;
     padding: 0.5em 1.5em;
     max-width: fit-content;
     margin-left: auto;
