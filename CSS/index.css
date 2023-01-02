@@ -41,15 +41,13 @@
 
 .Block-One{
     display: flex;
-}
-
-.Image-Nathan{
-    margin: 15em auto;
+    flex-direction: row; 
+    justify-content: center;
+    margin-top:15em;
 }
 
 .Me{
-   width: 80%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
+   width: 90%;
+    height: 400px;
 }
 
