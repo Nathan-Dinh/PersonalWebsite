@@ -1,3 +1,4 @@
+/* Top Header portion*/
 .Top-Header{
     display: flex;
 }
@@ -33,5 +34,22 @@
 .Navigation-Link{
     list-style: none;
     margin-left: 1em ;
+    margin-top: auto;
+}
+
+/*Main Content*/
+
+.Block-One{
+    display: flex;
+}
+
+.Image-Nathan{
+    margin: auto;
+}
+
+.Me{
+   width: 80%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
