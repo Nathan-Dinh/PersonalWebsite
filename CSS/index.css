@@ -1,9 +1,9 @@
 .Top-Header{
-    font-size: 2.5em;
     display: flex;
 }
 
 .Header-Name{
+    font-size: 2.5em;
     margin-bottom: auto;
 }
 
@@ -13,7 +13,6 @@
 
 .Navigation-Content{
     font-size: 1.5rem;
-    margin-top: auto;
     margin-left: auto;
     text-align: right;
 }
@@ -21,7 +20,7 @@
 .Navigation-Contact{
     background-color: gray;
     color: black;
-    padding: 0.5em 1.5em;
+    padding: 0.3em 1em;
     max-width: fit-content;
     margin-left: auto;
     margin-bottom: 0.6em;
@@ -29,5 +28,10 @@
 
 .Navigation-Main{
     display: flex;
+}
+
+.Navigation-Link{
+    list-style: none;
     margin-left: 1em ;
 }
+
