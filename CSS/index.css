@@ -3,12 +3,13 @@
   display: flex;
   background-color: #df2935;
   font-family: "Poppins", sans-serif;
-  padding: 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .Header-Name {
   font-size: 2em;
   color: white;
+  display: flex;
 }
 
 .Header-Intro {
@@ -42,6 +43,16 @@
   list-style: none;
   margin-left: 2em;
   margin-top: auto;
+}
+
+.Logo-Container{
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+}
+
+.Logo-Container{
+  margin-top: 10px;
 }
 
 .w-6 {
