@@ -1,68 +1,77 @@
 /* Top Header portion*/
-.Top-Header{
-    display: flex;
-    background-color: #DF2935;
-    font-family: 'Poppins', sans-serif;
-    padding: 1em;
+.Top-Header {
+  display: flex;
+  background-color: #df2935;
+  font-family: "Poppins", sans-serif;
+  padding: 1em;
 }
 
-.Header-Name{
-    font-size: 2em;
-    color: #E6E8E6;
+.Header-Name {
+  font-size: 2em;
+  color: white;
 }
 
-.Header-Intro{
-    font-size: 0.5em;
-    color: black;
+.Header-Intro {
+  font-size: 0.5em;
+  color: black;
 }
 
-.Navigation-Content{
-    font-size: 1rem;
-    margin-left: auto;
-    text-align: right;
+.Navigation-Content {
+  font-size: 1rem;
+  margin-left: auto;
+  text-align: right;
 }
 
-.Navigation-Contact{
-    background-color: #FFEC51;
-    border-radius: 10px;
-    color: black;
-    padding: 0.3em 1em;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-bottom: 0.6em;
+.Navigation-Contact {
+  background-color: #ffec51;
+  border-radius: 10px;
+  color: black;
+  padding: 0.3em 1em;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-bottom: 0.6em;
 }
 
-.Navigation-Main{
-    display: flex;
+.Navigation-Main {
+  display: flex;
 }
 
-.Navigation-Link{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-left: 1em ;
-    margin-top: auto;
-
+.Navigation-Link {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: 2em;
+  margin-top: auto;
 }
 
-svg{
-    height: 1em;
-    width: 1em;
-    margin-top: 4px;
+svg {
+  height: 1em;
+  width: 1em;
+  margin-top: 4px;
 }
 
-/*Main Content*/
+/*Main*/
 
-.Block-One{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    margin-top:12em;
+.Block-One {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.Quote{
-    margin: auto 0;
-    font-size: 7em;
-    text-align: center;
+.BadPicture{
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  mix-blend-mode:color-dodge;
 }
 
+.Picture{
+  margin: 0 auto;
+}
+
+.Quote {
+  margin: auto 0;
+  font-size: 7em;
+  text-align: center;
+}
