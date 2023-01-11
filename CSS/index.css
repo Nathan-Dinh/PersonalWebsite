@@ -1,17 +1,19 @@
 /* Top Header portion*/
 .Top-Header{
     display: flex;
-    background-color: #FF674D;
+    background-color: #DF2935;
     font-family: 'Poppins', sans-serif;
     padding: 1em;
 }
 
 .Header-Name{
     font-size: 2em;
+    color: #E6E8E6;
 }
 
 .Header-Intro{
     font-size: 0.5em;
+    color: black;
 }
 
 .Navigation-Content{
@@ -35,9 +37,18 @@
 }
 
 .Navigation-Link{
+    display: flex;
+    justify-content: center;
     list-style: none;
     margin-left: 1em ;
     margin-top: auto;
+
+}
+
+svg{
+    height: 1em;
+    width: 1em;
+    margin-top: 4px;
 }
 
 /*Main Content*/
