@@ -44,18 +44,19 @@
   margin-top: auto;
 }
 
-svg {
+.w-6 {
   height: 1em;
   width: 1em;
   margin-top: 4px;
 }
 
 /*Main*/
-
+/*Block-One*/
 .Block-One {
-  height: 70vh;
+  height: 43em;
   display: flex;
   flex-direction: column;
+  margin-bottom: 4em;
 }
 
 .BadPicture{
@@ -67,11 +68,62 @@ svg {
 }
 
 .Picture{
-  margin: 0 auto;
+  margin: auto;
 }
 
 .Quote {
-  margin: auto 0;
+  
   font-size: 7em;
   text-align: center;
 }
+/*Block-Two*/
+.Block-Two{
+  background-color: #df2935;
+  border-radius: 5px;
+  padding: 1em;
+  display: grid;
+  grid-template-areas: 
+  "Sub-Header Sub-Header Sub-Header"
+  "One Two Three"
+  ;
+}
+
+.Sub-Header{
+  grid-area: Sub-Header;
+  font-size: 3em;
+  text-align: center;
+}
+
+.Skill{
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.One{
+grid-area: One;
+}
+
+.Two{
+  grid-area: Two;
+}
+
+.Three{
+  grid-area: Three;
+}
+
+.Skill-Icon{
+  background-color: #FDCA40;
+  border: 4px solid black;
+  border-radius: 100%;
+  padding: 0.5em;
+}
+
+/*Block-Three*/
+.Block-Three{
+  height: 100vh;
+}
+
+
+
+
