@@ -1,6 +1,8 @@
 /* Top Header portion*/
 .Top-Header {
   display: flex;
+  position: sticky;
+  top: 0;
   background-color: #df2935;
   font-family: "Poppins", sans-serif;
   padding: 1em 1em 1em 1em;
@@ -45,13 +47,13 @@
   margin-top: auto;
 }
 
-.Logo-Container{
+.Logo-Container {
   width: 50px;
   height: 50px;
   margin-right: 1em;
 }
 
-.Logo-Container{
+.Logo-Container {
   margin-top: 10px;
 }
 
@@ -64,76 +66,88 @@
 /*Main*/
 /*Block-One*/
 .Block-One {
-  height: 43em;
+  max-height: 50em;
   display: flex;
   flex-direction: column;
   margin-bottom: 4em;
 }
 
-.BadPicture{
+.BadPicture {
   border: 5px solid black;
   border-radius: 10px;
   width: 500px;
   height: 500px;
 }
 
-.Picture{
+.Picture {
   margin: auto;
 }
 
 .Quote {
-  
   font-size: 7em;
   text-align: center;
 }
 /*Block-Two*/
-.Block-Two{
+.Block-Two {
   background-color: #df2935;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 1em;
   display: grid;
-  grid-template-areas: 
-  "Sub-Header Sub-Header Sub-Header"
-  "One Two Three"
-  ;
+  grid-template-areas:
+    "Sub-Header Sub-Header Sub-Header"
+    "One Two Three";
 }
 
-.Sub-Header{
+.Sub-Header {
   grid-area: Sub-Header;
   font-size: 3em;
   text-align: center;
 }
 
-.Skill{
+.Skill {
   font-size: 1em;
   margin: 0 auto;
   text-align: center;
 }
 
-.One{
-grid-area: One;
+.One {
+  grid-area: One;
 }
 
-.Two{
+.Two {
   grid-area: Two;
 }
 
-.Three{
+.Three {
   grid-area: Three;
 }
 
-.Skill-Icon{
-  background-color: #FDCA40;
+.Skill-Icon {
+  background-color: #fdca40;
   border: 4px solid black;
   border-radius: 100%;
   padding: 0.5em;
 }
 
-/*Block-Three*/
-.Block-Three{
-  height: 100vh;
+/*Block-Four*/
+.Block-Four {
+  height: 20em;
 }
 
+/*Footer*/
+footer {
+  display: flex;
+  height: 3em;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #df2935;
+}
 
+.Footer-Link{
+  margin: auto 0;
+}
+
+/*Media query*/
 
 
