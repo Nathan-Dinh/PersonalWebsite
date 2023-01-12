@@ -22,3 +22,8 @@ a:hover{
     font-family: 'Poppins', sans-serif;
 }
 
+hr{
+    background-color: black;
+    width: 100%;
+}
+
