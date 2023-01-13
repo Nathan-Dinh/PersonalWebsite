@@ -139,7 +139,7 @@ footer {
   font-family: "Poppins", sans-serif;
   display: grid;
   grid-template-areas: 
-  "FooterOne . . . . FooterTwo"
+  "FooterOne  . . . . FooterTwo"
   " FooterThree FooterThree FooterThree FooterThree FooterThree FooterThree "
   "FooterFour FooterFour FooterFour FooterFour FooterFour FooterFour"
   ;
@@ -155,14 +155,17 @@ display: flex;
 flex-direction: column;
 margin-left: 1em;
 font-size: 1.1em;
+width: 2em;
 }
 
 .Footer-SubHeader{
   margin-bottom: 1em;
+  color: white;
 }
 
 .Footer-Link{
 margin-bottom: 10px;
+text-emphasis-style: ;
 }
 
 .Section-Two{
@@ -182,6 +185,7 @@ margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   margin: 0 1em;
+  color: white;
 }
 
 .Footer-Icon{
